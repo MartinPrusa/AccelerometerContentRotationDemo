@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46C6AABF24DEAFFF00137F75 /* Double+Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C6AABE24DEAFFF00137F75 /* Double+Round.swift */; };
 		46CF670524DC19DD00FEDF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF670424DC19DD00FEDF34 /* AppDelegate.swift */; };
 		46CF670724DC19DD00FEDF34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF670624DC19DD00FEDF34 /* SceneDelegate.swift */; };
 		46CF670924DC19DD00FEDF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF670824DC19DD00FEDF34 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46C6AABE24DEAFFF00137F75 /* Double+Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Round.swift"; sourceTree = "<group>"; };
 		46CF670124DC19DD00FEDF34 /* VideoRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CF670424DC19DD00FEDF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46CF670624DC19DD00FEDF34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +80,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46C6AAC024DEBB2200137F75 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				46C6AABE24DEAFFF00137F75 /* Double+Round.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		46CF66F824DC19DD00FEDF34 = {
 			isa = PBXGroup;
 			children = (
+				46C6AAC024DEBB2200137F75 /* Extension */,
 				46CF673424DC19F900FEDF34 /* rodney-thps3.mp4 */,
 				46CF670324DC19DD00FEDF34 /* VideoRotation */,
 				46CF671A24DC19DF00FEDF34 /* VideoRotationTests */,
@@ -265,6 +276,7 @@
 				46CF670924DC19DD00FEDF34 /* ViewController.swift in Sources */,
 				46CF670524DC19DD00FEDF34 /* AppDelegate.swift in Sources */,
 				46CF670724DC19DD00FEDF34 /* SceneDelegate.swift in Sources */,
+				46C6AABF24DEAFFF00137F75 /* Double+Round.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

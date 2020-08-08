@@ -33,13 +33,9 @@ final class ViewController: UIViewController {
         player.play()
     }
 
-    private func roundDouble(value: Double) -> CGFloat {
-        return CGFloat(round(1000 * value) / 100)
-    }
-
     @objc func update() {
         if let accelerometerData = motionManager.accelerometerData {
-            let rotation = CATransform3DMakeRotation(-CGFloat(self.roundDouble(value: accelerometerData.acceleration.x)/6.38), 0, 0, 1.0)
+            let rotation = CATransform3DMakeRotation(-accelerometerData.acceleration.x.cgFloatRounded / 6.38, 0, 0, 1.0)
             let scale = CATransform3DScale(rotation, 2.5, 4, 1.0)
             self.playerLayer.transform = scale
         }
